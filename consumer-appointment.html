@@ -1,0 +1,28 @@
+<div class="card">
+    <div class="card-body">
+        <h2 class="card-title">理发服务预约</h2>
+        <form>
+            <div class="mb-3">
+                <label for="service-item" class="form-label">服务项目</label>
+                <select class="form-select" id="service-item">
+                    <option value="1">剪发</option>
+                    <option value="2">烫发</option>
+                    <option value="3">染发</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="barber" class="form-label">理发师</label>
+                <select class="form-select" id="barber">
+                    <option value="1">理发师1</option>
+                    <option value="2">理发师2</option>
+                    <option value="3">理发师3</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="appointment-time" class="form-label">理发时间</label>
+                <input type="datetime-local" class="form-control" id="appointment-time">
+            </div>
+            <button type="button" class="btn btn-primary" id="appointment-submit-btn">提交预约</button>
+        </form>
+    </div>
+</div>    
